@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">bug tracking</string>
+    <string name="bug_name">Bug Name</string>
+    <string name="source">Source</string>
+    <string name="description">Description</string>
+    <string name="q" />
+    <string name="s" />
+    <string name="submit">Submit</string>
+    <string name="w" />
+</resources>

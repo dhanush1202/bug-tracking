@@ -11,15 +11,21 @@
         android:theme="@style/Theme.BugTracking">
         <activity
             android:name=".lists"
+            android:parentActivityName=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".bugregis"
+            android:parentActivityName=".MainActivity"
+            android:label="report bug"
             android:exported="false" />
         <activity
             android:name=".signin"
+            android:parentActivityName=".MainActivity"
+            android:label="sign in"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
+            android:label="log in"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
